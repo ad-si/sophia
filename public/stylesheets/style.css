@@ -9,6 +9,10 @@
 }
 html {
   min-height: 100%;
+  background-image: -webkit--webkit-radial-gradient(50% 30%, rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url("../images/bg.jpg");
+  background-image: -webkit--moz-radial-gradient(50% 30%, rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url("../images/bg.jpg");
+  background-image: -webkit--o-radial-gradient(50% 30%, rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url("../images/bg.jpg");
+  background-image: -webkit--ms-radial-gradient(50% 30%, rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url("../images/bg.jpg");
   background-image: -webkit-radial-gradient(50% 30%, rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url("../images/bg.jpg");
   background-color: #232323;
 }
